@@ -1,0 +1,1 @@
+aws glue start-job-run --job-name test_secretsmanager --arguments="--table_name=test,--imp_path=epamgluejobtest/test,--imp_file=testtable.csv" 
